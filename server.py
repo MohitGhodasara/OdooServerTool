@@ -18,3 +18,5 @@ if __name__ == "__main__":
             root.destroy()
     except BaseException as e:
         print("Error: ", e)
+    except Exception as e:
+        print("Error: ", e)
